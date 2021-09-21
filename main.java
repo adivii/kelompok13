@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.kelompok;
 
 /**
  *
@@ -19,16 +18,13 @@ public class main {
 //        emp [0] = new SalariedEmployee();
 //        emp [1] = new HourlyEmployee();
         
-        emp [0] = sal;
-        emp [1] = hour;
+        emp[0] = sal;
+        emp[1] = hour;
         
         sal.setSalary(6);
         hour.setHoursWorked(7);
         hour.setHourlyPayment(50);
         
-
-
-
         for(Employee i : emp ){
             System.out.println(i.payment());
         }

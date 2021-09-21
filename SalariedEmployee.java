@@ -1,4 +1,3 @@
-package salariedemploye;
 
 public class SalariedEmployee extends Employee{
     private int Salary;
@@ -9,13 +8,11 @@ public class SalariedEmployee extends Employee{
     }
 
     public void setSalary(int salary){
-    this.salary = salary;
-
+        this.salary = salary;
     }
 
     @Override
     int payment() {
-    return this.salary;
+        return this.salary;
     }
-
 }
